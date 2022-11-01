@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/assert"
+	"github.com/rohanthewiz/testify/assert"
 )
 
 func TestEntryWithError(t *testing.T) {

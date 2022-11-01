@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/sirupsen/logrus"
+	. "github.com/rohanthewiz/logrus"
 
-	"github.com/stretchr/testify/require"
+	"github.com/rohanthewiz/testify/require"
 )
 
 func LogAndAssertJSON(t *testing.T, log func(*Logger), assertions func(fields Fields)) {

@@ -7,12 +7,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
+	"github.com/rohanthewiz/testify/assert"
+	"github.com/rohanthewiz/testify/require"
 
-	. "github.com/sirupsen/logrus"
-	"github.com/sirupsen/logrus/hooks/test"
-	. "github.com/sirupsen/logrus/internal/testutils"
+	. "github.com/rohanthewiz/logrus"
+	"github.com/rohanthewiz/logrus/hooks/test"
+	. "github.com/rohanthewiz/logrus/internal/testutils"
 )
 
 type TestHook struct {

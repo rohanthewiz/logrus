@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/sirupsen/logrus"
-	"github.com/stretchr/testify/assert"
+	"github.com/rohanthewiz/logrus"
+	"github.com/rohanthewiz/testify/assert"
 )
 
 func TestAllHooks(t *testing.T) {

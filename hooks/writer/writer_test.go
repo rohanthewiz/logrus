@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	log "github.com/sirupsen/logrus"
-	"github.com/stretchr/testify/assert"
+	log "github.com/rohanthewiz/logrus"
+	"github.com/rohanthewiz/testify/assert"
 )
 
 func TestDifferentLevelsGoToDifferentWriters(t *testing.T) {

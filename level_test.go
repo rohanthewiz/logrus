@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/sirupsen/logrus"
-	"github.com/stretchr/testify/require"
+	"github.com/rohanthewiz/logrus"
+	"github.com/rohanthewiz/testify/require"
 )
 
 func TestLevelJsonEncoding(t *testing.T) {

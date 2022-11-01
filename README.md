@@ -462,7 +462,7 @@ Logrus has a built in facility for asserting the presence of log messages. This 
 import(
   "github.com/sirupsen/logrus"
   "github.com/sirupsen/logrus/hooks/test"
-  "github.com/stretchr/testify/assert"
+  "github.com/rohanthewiz/testify/assert"
   "testing"
 )
 

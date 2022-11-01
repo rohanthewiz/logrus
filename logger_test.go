@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
+	"github.com/rohanthewiz/testify/assert"
+	"github.com/rohanthewiz/testify/require"
 )
 
 func TestFieldValueError(t *testing.T) {
@@ -70,7 +70,7 @@ func TestWarninglnNotEqualToWarning(t *testing.T) {
 
 type testBufferPool struct {
 	buffers []*bytes.Buffer
-	get int
+	get     int
 }
 
 func (p *testBufferPool) Get() *bytes.Buffer {
